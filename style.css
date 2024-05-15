@@ -1,0 +1,215 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.company-details{
+    width: 100%;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.company-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.navbar-brand#navbar-id {
+    color: rgba(255, 255, 255, .55);
+    transition: color 0.3s ease;
+}
+
+.navbar-brand#navbar-id:hover {
+    color: white;
+}
+
+.nav-item {
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, .55);
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item:hover .nav-link:hover {
+    color: white;
+}
+
+.hero-section-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.hello-section {
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+    background-image: url('images/charge.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 10% 10%;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.hello-icon {
+    font-size: 72px;
+    color: #FF5733;
+    margin-bottom: 20px;
+}
+
+.hello-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(236, 0, 0);
+    margin-bottom: 10px;
+    
+
+}
+
+.hello-description {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.hello-description:hover{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.about-btn{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(4, 197, 4);
+    border: none;
+    padding: 5px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    color: whitesmoke;
+}
+
+.about-btn:hover{
+    opacity: 0.5px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+
+
+.text-center{
+    width: 100%;
+    display: inline-block;
+
+}
+
+.text-center:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(185, 6, 6, 0.945);
+    
+}
+
+.advertisement{
+
+}
+
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift up the card slightly on hover */
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666; 
+}
+
+.fab.fa-facebook,
+.fab.fa-google,
+.fab.fa-youtube,
+.fab.fa-linkedin,
+.fab.fa-github {
+    color: rgba(0, 0, 0, 0.925);
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+
+
+.footer-left{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+}
+
+.footer-right{
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.input-box::placeholder{
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.button-send{
+    font-weight: bold;
+    border: none;
+}
+
+.left-right-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+   
+}
